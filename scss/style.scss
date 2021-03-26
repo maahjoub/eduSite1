@@ -187,9 +187,9 @@ body {
   border-bottom-right-radius: 10px;
 }
 .bac-cover {
+  margin-bottom: 10px;
   .opacty {
     background-color: #000;
-
     top: 195px;
     left: 0;
     width: 100%;
@@ -204,7 +204,6 @@ body {
 }
 .our-courses {
   display: flex;
-  .col {
-    background-color: #ccc;
-  }
+  justify-content: space-between;
+  align-items: center;
 }

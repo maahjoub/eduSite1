@@ -180,6 +180,10 @@ body {
   border-bottom-right-radius: 10px;
 }
 
+.bac-cover {
+  margin-bottom: 10px;
+}
+
 .bac-cover .opacty {
   background-color: #000;
   top: 195px;
@@ -196,8 +200,6 @@ body {
 
 .our-courses {
   display: flex;
-}
-
-.our-courses .col {
-  background-color: #ccc;
+  justify-content: space-between;
+  align-items: center;
 }
