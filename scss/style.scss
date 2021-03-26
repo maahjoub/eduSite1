@@ -203,8 +203,8 @@ body {
   }
 }
 .our-courses {
+  display: flex;
   .col {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    background-color: #ccc;
   }
 }

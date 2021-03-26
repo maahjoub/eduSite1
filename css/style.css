@@ -194,7 +194,10 @@ body {
   opacity: 0.5;
 }
 
+.our-courses {
+  display: flex;
+}
+
 .our-courses .col {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  background-color: #ccc;
 }
